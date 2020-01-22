@@ -386,7 +386,7 @@ img.hover-shadow {
 
 .image {
   display: block;
-  width: 70%;
+  width: 30%;
   height: auto;
 }
 
@@ -397,7 +397,7 @@ img.hover-shadow {
   right: 0;
   background-color: hsla(0, 100%, 0%, 0.53);
   overflow: hidden;
-  width: 70%;
+  width: 30%;
   height: 0;
   transition: .5s ease;
 }

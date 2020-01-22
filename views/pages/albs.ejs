@@ -14,16 +14,21 @@
     <!--CONTENT-->
     
     <div id="odstavec">
+
+      <% for(var i=0; i < 3; i++) { %>
       <div class="container">
-        <img src="/img/cover1.jpg" alt="Album cover" class="image">
+        <img src="<%= albs[i].cover %>" alt="Album cover" class="image">
         <div class="overlay">
-          <div class="text"><center>FOCKING PLEB</center></div>
-            <a href="/img/fockingpleb.zip" download>
+          <div class="text"><center><%= albs[i].name %></center></div>
+            <a href="<%= albs[i].songs %>" download>
               <center><button class="knoflik">STÁHNOUT</button></center>
             </a>
           </div>
-        </div>
       </div>
+      <% } %>
+
+    </div>
+
     <!--END-CONTENT-->
 
     <footer>
