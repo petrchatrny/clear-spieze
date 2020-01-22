@@ -1,0 +1,430 @@
+body{
+  background-image: url("../img/wallpaper.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0px 0px 0px 0px;
+}
+/*-----------------------------------------------------Parallax--------------------------------------------------------------*/
+
+.parallax{
+  /* The image used */
+  background-image: url("../img/guitar2.jpg");
+  /* Set a specific height */
+  min-height: 30em;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2{
+  /* The image used */
+  background-image: url("../img/guitar3.jpg");
+  /* Set a specific height */
+  min-height: 30em;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  color: white;
+  text-align:center;
+  font-family:Arial;
+}
+
+
+#odstavec{
+  color:white;
+  background-color:hsla(0, 0%, 0%, 0.7);
+  margin:1em 16.2em 1em 16.2em;
+  font-family:Book Antiqua;
+  padding:0.5em 1em 1em 1em;
+}
+
+#menu a:link, a:visited{
+  color:white;
+  font-weight:bold;
+  text-decoration:none;
+  border-radius: 4px;
+  font-size:25px;
+  padding: 10px 26.5px;
+  font-family:Arial;
+}
+
+#menu a:hover{
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+  background-color:hsla(360, 100%, 38%, 1);
+  border-radius: 4px;
+  font-size:25px;
+  padding: 10px 26.5px;
+  font-family:Arial;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+#zahlavi{
+  background-color:hsla(253, 100%, 0%, 0.7);
+  margin: 0px 16.2em 20px 16.2em;
+  padding: 10px 0px;
+  border-radius: 4px;
+  text-align:center;
+  color:white;
+}
+
+#zapati{
+  background-color:hsla(253, 100%, 0%, 0.7);
+  margin: 5em 16.2em 0em 16.2em;
+  padding: 15px 0px;
+  border-radius: 4px;
+  text-align:center;
+  color:white;
+}
+
+#nahledy img{
+  width:25%;
+  height:25%;
+  margin: 1.5em 1em 1em 1.5em;
+}
+
+#album1{
+  border-color:hsla(360, 91%, 23%, 1);
+  border-style: solid;
+  border-width:0.2em;
+  color:orange;
+  margin:1em 20% 5em 20%;
+  padding:10px 10px 10px 10px;
+}
+
+#album1 h2{
+  text-align:center;
+}
+
+#album1 img{
+  float:right;
+  width:7em;
+  height:7em;
+  padding: 0em 2em 0em 0em;
+}
+
+.podnadpis1{
+  color:red;
+  font-size:30px;
+  font-family:Arial;
+  padding:30px 0px 5px 0px;
+}
+
+.podnadpis2{
+  color:red;
+  font-size:30px;
+  font-family:Arial;
+  padding:0px 0px 5px 0px;
+}
+
+#about img{
+  width:25%;
+  float:left;
+  padding:0px 15px 20px 0px;
+}
+
+.bunka_nazvu{
+  border-right:hidden;
+  font-size:50px;
+  color:hsla(360, 91%, 23%, 1);
+  padding:0px 0px 0px 0px;
+
+}
+
+.bunka_songy{
+  text-align:left;
+  font-size:18px;
+  vertical-align: text-top;
+  border-top:5px solid grey;
+}
+
+.bunka_obrazek{
+  border-left:hidden;
+}
+
+#tabulka{
+  border: 5px solid grey;
+  padding:10px 10px 10px 10px;
+}
+
+#koncert{
+}
+
+#datum{
+  display: inline;
+  font-size:30px;
+  padding:0px 0px 0px 0px;
+}
+#mesto{
+  display: inline;
+  font-size:20px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+#koncert button{
+  background-color:grey;
+  color:white;
+  border:none;
+
+  text-align:center;
+  font-size:18px;
+  text-transform:uppercase;
+
+  padding:10px 10px 10px 10px;
+  margin:-1.5em 0px 0px 0px;
+
+  float:right;
+  cursor:pointer;
+
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+#koncert button:hover{
+  background-color:hsla(360, 100%, 38%, 1);
+  color:white;
+  border:none;
+  font-size:18px;
+}
+
+::selection{
+  color:white;
+  background:red;
+}
+/*-----------------------------------------------------------------LIGHTBOX------------------------------------------------------------------*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+#column {
+  margin:1% 25% 1% 25%;
+}
+#column img{
+  vertical-align:center;
+  width: 19.5%;
+}
+
+/* The Modal (background) */
+
+#myModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 1em;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color:hsla(0, 0%, 0%, 0.8);
+}
+
+#myModal img{
+  margin:1% 0%;
+}
+
+/* Modal Content */
+.modal-content{
+  position: relative;
+  background-color:hsla(0, 0%, 0%, 0);
+  margin: auto;
+  padding: 0;
+  width: 90%;
+}
+
+/* The Close Button */
+.close {
+  color: hsla(360, 100%, 38%, 1);
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.close:hover,.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,.next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 15px;
+  margin-top: -21%;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.6s ease;
+  border-radius: 5px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 5px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,.next:hover {
+  background-color: hsla(360, 100%, 38%, 1);
+}
+
+img.demo {
+  opacity: 0.6;
+  width:35%;
+  height:35%;
+}
+
+.active,.demo:hover {
+  opacity: 1;
+  width:35%;
+  height:35%;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+  width:35%;
+  height:35%;
+  opacity:0.7;
+}
+
+.hover-shadow:hover {
+  opacity:1;
+}
+
+/*---------------------------------------------------------------SCROLL BUTTON---------------------------------------------------------------*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 60px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+
+#myBtn:hover {
+  background-color: hsla(360, 100%, 38%, 1);
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#debilek {
+     padding:6px 4px;
+     border: 2px solid rgba(248, 248, 248, 0.521);
+     background-color:rgba(141, 141, 141, 0) ;
+     margin:0 2px 2px 0;
+     box-sizing: border-box;
+     text-decoration:none;
+     text-transform:uppercase;
+     font-weight:400;
+     font-size: 8px;
+     color:#ffffff;
+     text-align:center;
+     font-family:Arial;
+    }
+
+#debilek:hover {
+  background-color: #fafafa71;
+}
+
+
+
+/*---------------------------------------------------------------ALBUM COVER---------------------------------------------------------------*/
+
+.container {
+  position: relative;
+  width: 50%;
+  padding:5px 0px 0px 0px;
+}
+
+.image {
+  display: block;
+  width: 70%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: hsla(0, 100%, 0%, 0.53);
+  overflow: hidden;
+  width: 70%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 35px;
+  font-family:Arial;
+  margin: 20% 0% 0 0%;
+}
+
+.knoflik{
+  background-color:grey;
+  color:white;
+  border:none;
+
+  text-align:center;
+  font-size:18px;
+  text-transform:uppercase;
+
+  padding:10px 10px 10px 10px;
+
+  margin:20% 0 0 0;
+  cursor:pointer;
+
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.knoflik:hover{
+  background-color:hsla(360, 100%, 38%, 1);
+  color:white;
+  border:none;
+  font-size:18px;
+}

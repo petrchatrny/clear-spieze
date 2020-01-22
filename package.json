@@ -1,0 +1,23 @@
+{
+  "name": "priroda",
+  "version": "1.0.0",
+  "description": "websites about nature",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016\u0016https://github.com/prionxd/priroda"
+  },
+  "keywords": [
+    "priroda"
+  ],
+  "author": "Prion",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}

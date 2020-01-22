@@ -1,0 +1,21 @@
+<div id="zapati">Code & Design by Prion © 2020 </div>
+
+<!--Scrollup button-->
+    <script>
+        // Po scrollu 20px se objevi button
+        window.onscroll = function() {scrollFunction()}
+    
+        function scrollFunction(){
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+            }
+        }
+    
+        // po kliknuti to uzivatele hodi nahoru
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
